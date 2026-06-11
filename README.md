@@ -7,6 +7,17 @@ The tool is used to track performance, compare sales against targets, calculate 
 
 ## 🔥 Key Features
 
+## Data Cleaning & Transformation
+Before building the dashboard, a complete data cleaning process was performed using Power Query:
+
+- Removed duplicate records.
+- Handled missing and null values.
+- Standardized column names and data types.
+- Corrected inconsistent data entries.
+- Validated relationships between fact and dimension tables.
+- Optimized data structure for better performance and reporting accuracy.
+
+
 ### Dashboard Pages
 
 **Overview**  
@@ -50,6 +61,7 @@ Detailed page showing:
 Sales analysis per Rep over the years, including products.
 
 ## 🧱 Data Model
+The data model was redesigned and optimized following a Star Schema approach:
 
 ### Dimension Tables
 - D_Cluster  
